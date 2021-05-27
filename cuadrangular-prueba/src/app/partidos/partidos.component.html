@@ -1,0 +1,9 @@
+<div *ngFor="let partido of partidos">
+  <app-partido
+    [nombreeq1]="partido.nombreequipo1"
+    [nombreeq2]="partido.nombreequipo2"
+    [idpartido]="partido.idpartido"
+    [goleq1]="partido.geq1"
+    [goleq2]="partido.geq2"
+  ></app-partido>
+</div>

@@ -1,0 +1,80 @@
+{
+  "equipos": [
+    {
+      "id": 1,
+      "nombre": "Equipo A",
+      "puntos": 23
+    },
+    {
+      "id": 2,
+      "nombre": "Equipo B",
+      "puntos": 23
+    },
+    {
+      "id": 3,
+      "nombre": "Equipo C",
+      "puntos": 0
+    },
+    {
+      "id": 4,
+      "nombre": "Equipo D",
+      "puntos": 0
+    }
+  ],
+  "partidos": [
+    {
+      "ide1": 1,
+      "ide2": 2,
+      "ge1": "0",
+      "ge2": "3",
+      "idpartido": 1,
+      "nombreequipo1": "Equipo A",
+      "nombreequipo2": "Equipo B"
+    },
+    {
+      "ide1": 1,
+      "ide2": 3,
+      "ge1": 0,
+      "ge2": 0,
+      "idpartido": 2,
+      "nombreequipo1": "Equipo A",
+      "nombreequipo2": "Equipo C"
+    },
+    {
+      "ide1": 1,
+      "ide2": 4,
+      "ge1": 1,
+      "ge2": 1,
+      "idpartido": 3,
+      "nombreequipo1": "Equipo A",
+      "nombreequipo2": "Equipo D"
+    },
+    {
+      "ide1": 2,
+      "ide2": 3,
+      "ge1": 0,
+      "ge2": 0,
+      "idpartido": 4,
+      "nombreequipo1": "Equipo B",
+      "nombreequipo2": "Equipo C"
+    },
+    {
+      "ide1": 2,
+      "ide2": 4,
+      "ge1": 0,
+      "ge2": 0,
+      "idpartido": 5,
+      "nombreequipo1": "Equipo B",
+      "nombreequipo2": "Equipo D"
+    },
+    {
+      "ide1": 3,
+      "ide2": 4,
+      "ge1": 0,
+      "ge2": 0,
+      "idpartido": 6,
+      "nombreequipo1": "Equipo C",
+      "nombreequipo2": "Equipo D"
+    }
+  ]
+}
