@@ -1,0 +1,21 @@
+<div>
+    <button>Actualizar</button>
+    <table>
+        <tr>
+            <th>
+                Nombre Equipo
+            </th>
+            <th>
+                Puntos 
+            </th>
+        </tr>
+        <tr *ngFor="let equipo of equipos" id="{{equipo.id}}">
+            <td>
+                {{ equipo.nombre }}
+            </td>
+            <td>
+                {{ equipo.puntos }}
+            </td>
+        </tr>
+    </table>
+</div>

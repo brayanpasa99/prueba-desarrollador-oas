@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PartidosComponent } from './partidos/partidos.component';
 import { PartidoComponent } from './partido/partido.component';
+import { TablapartidosComponent } from './tablapartidos/tablapartidos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PartidosComponent,
-    PartidoComponent
+    PartidoComponent,
+    TablapartidosComponent
   ],
   imports: [
     BrowserModule,
