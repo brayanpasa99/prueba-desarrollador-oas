@@ -8,7 +8,7 @@
     {
       "id": 2,
       "nombre": "Equipo B",
-      "puntos": 23
+      "puntos": 29
     },
     {
       "id": 3,
@@ -52,8 +52,8 @@
     {
       "ide1": 2,
       "ide2": 3,
-      "ge1": 0,
-      "ge2": 0,
+      "ge1": "3",
+      "ge2": "2",
       "idpartido": 4,
       "nombreequipo1": "Equipo B",
       "nombreequipo2": "Equipo C"
@@ -61,8 +61,8 @@
     {
       "ide1": 2,
       "ide2": 4,
-      "ge1": 0,
-      "ge2": 0,
+      "ge1": "3",
+      "ge2": "1",
       "idpartido": 5,
       "nombreequipo1": "Equipo B",
       "nombreequipo2": "Equipo D"

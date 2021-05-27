@@ -20,7 +20,9 @@ export class TablapartidosComponent implements OnInit {
   }
 
   actualizar(): void {
-    
+    this.apiService.getEquipos().subscribe((equipos) =>{
+      this.equipos = equipos;
+    })
   }
 
 }

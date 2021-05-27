@@ -1,5 +1,5 @@
 <div>
-    <button>Actualizar</button>
+    <button (click)="actualizar()">Actualizar</button>
     <table>
         <tr>
             <th>
@@ -13,7 +13,7 @@
             <td>
                 {{ equipo.nombre }}
             </td>
-            <td>
+            <td id="puntos">
                 {{ equipo.puntos }}
             </td>
         </tr>
