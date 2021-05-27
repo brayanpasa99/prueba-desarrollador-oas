@@ -3,12 +3,12 @@
     {
       "id": 1,
       "nombre": "Equipo A",
-      "puntos": 23
+      "puntos": 0
     },
     {
       "id": 2,
       "nombre": "Equipo B",
-      "puntos": 29
+      "puntos": 0
     },
     {
       "id": 3,
